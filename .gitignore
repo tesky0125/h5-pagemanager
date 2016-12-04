@@ -1,0 +1,29 @@
+###############
+#    folder   #
+###############
+.idea/
+node_modules/
+build/
+#dist/
+demo/libs/
+
+###############
+#    file   #
+###############
+.DS_Store
+*.bak
+imini.*
+release.json
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+#encrypt
+src/**/*.js

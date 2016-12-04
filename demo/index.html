@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta  name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  user-scalable=no"/>
+    <script type="text/javascript">
+      console.log('document loading...')
+    </script>
+</head>
+
+<body>
+  <div id="app"></div>
+
+    <script type="text/javascript" src="/libs/react.min.js"></script>
+    <script type="text/javascript" src="/libs/react-dom.min.js"></script>
+    <script type="text/javascript" src="/libs/polyfill.min.js"></script>
+    <script type="text/javascript" src="/libs/h5_cache.js"></script>
+    <script type="text/javascript" src="/libs/demo.js"></script>
+    <script type="text/javascript">
+        console.log('window.name:', window.name);
+        window.onload = function(){
+            console.log('h5_cache:', h5_cache);
+        }
+    </script>
+</body>
+
+</html>
